@@ -1,5 +1,5 @@
 # Intelligent-Mirror-Room
-PECI -  Intelligent Mirror Room
+PECI -  Intelligent Mirror Room---
 # Members
 Ricardo Antunes
 
