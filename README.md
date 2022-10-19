@@ -1,5 +1,5 @@
-# Intelligent-Waiting-Room
-PECI -  Intelligent Waiting Room
+# Intelligent-Mirror-Room
+PECI -  Intelligent Mirror Room
 # Members
 Ricardo Antunes
 
