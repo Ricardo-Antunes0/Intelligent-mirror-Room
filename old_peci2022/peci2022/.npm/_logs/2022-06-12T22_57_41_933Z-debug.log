@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-tostify'
+1 verbose cli ]
+2 info using npm@6.14.17
+3 info using node@v14.19.3
+4 verbose npm-session 7328c2c51edfc047
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/react-tostify 941ms
+8 http fetch GET 404 https://registry.npmjs.org/react-tostify 225ms
+9 silly fetchPackageMetaData error for react-tostify@latest 404 Not Found - GET https://registry.npmjs.org/react-tostify - Not found
+10 timing stage:rollbackFailedOptional Completed in 2ms
+11 timing stage:runTopLevelLifecycles Completed in 9023ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/react-tostify - Not found
+12 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+12 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+13 verbose statusCode 404
+14 verbose pkgid react-tostify@latest
+15 verbose cwd /home/peci2022/react-webapp/src
+16 verbose Linux 4.15.0-47-generic
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "react-tostify"
+18 verbose node v14.19.3
+19 verbose npm  v6.14.17
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/react-tostify - Not found
+22 error 404
+23 error 404 'react-tostify@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
