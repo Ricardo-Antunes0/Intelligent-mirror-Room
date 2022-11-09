@@ -19,7 +19,7 @@ function Home() {
     <div className="linha">
       <img className="room" src={BannerImage} />
       <div className="rect">
-        <h1 className="npd">{0}</h1>
+        <h1 className="npd">{npessoas}</h1>
         <Icon className="iconpessoas" icon="fluent:people-24-filled"   />
       </div>
       <div className="rect2">
