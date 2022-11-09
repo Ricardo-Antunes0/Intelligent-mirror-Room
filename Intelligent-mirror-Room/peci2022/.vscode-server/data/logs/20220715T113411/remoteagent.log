@@ -1,0 +1,26 @@
+[2022-07-15 11:34:11.395] [remoteagent] [info] Extension host agent started.
+[2022-07-15 11:34:12.061] [remoteagent] [info] [127.0.0.1][003a3abf][ManagementConnection] New connection established.
+[2022-07-15 11:34:12.085] [remoteagent] [info] [127.0.0.1][b7ec995e][ExtensionHostConnection] New connection established.
+[2022-07-15 11:34:12.092] [remoteagent] [info] [127.0.0.1][b7ec995e][ExtensionHostConnection] <20678> Launched Extension Host Process.
+[2022-07-15 11:34:16.199] [remoteagent] [info] [127.0.0.1][b7ec995e][ExtensionHostConnection] <20678> Extension Host Process exited with code: 0, signal: null.
+[2022-07-15 11:34:16.200] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-15 11:34:21.798] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-15 11:34:21.799] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-15 11:34:21.869] [remoteagent] [info] [127.0.0.1][f91a469a][ManagementConnection] New connection established.
+[2022-07-15 11:34:21.893] [remoteagent] [info] [127.0.0.1][5c4f6ca2][ExtensionHostConnection] New connection established.
+[2022-07-15 11:34:21.904] [remoteagent] [info] [127.0.0.1][5c4f6ca2][ExtensionHostConnection] <20861> Launched Extension Host Process.
+[2022-07-15 11:34:23.057] [remoteagent] [info] [127.0.0.1][003a3abf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-15 11:34:23.065] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-15 11:34:24.369] [remoteagent] [error] ["ErrorNoTelemetry: Could not find pty on pty host","    at d._throwIfNoPty (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:24:29103)","    at d.updateTitle (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:24:25349)","    at Object.call (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:16:8293)","    at onPromise (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:15:4880)","    at onRawMessage (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:15:4268)","    at /home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:15:3556","    at h.invoke (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:11:145)","    at z.deliver (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)","    at M.fire (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)","    at process.W (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/platform/terminal/node/ptyHostMain.js:9:20668)","    at process.emit (node:events:390:28)","    at emit (node:internal/child_process:917:12)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-07-15 11:39:21.802] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-15 11:52:54.717] [remoteagent] [info] [127.0.0.1][f91a469a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-15 11:52:54.719] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-15 14:34:31.973] [remoteagent] [info] [127.0.0.1][003a3abf][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-15 14:53:03.756] [remoteagent] [info] [127.0.0.1][f91a469a][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-07-15 14:53:04.444] [remoteagent] [info] [127.0.0.1][5c4f6ca2][ExtensionHostConnection] <20861> Extension Host Process exited with code: 0, signal: null.
+[2022-07-15 14:53:04.445] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-15 14:58:04.447] [remoteagent] [info] Last EH closed, shutting down

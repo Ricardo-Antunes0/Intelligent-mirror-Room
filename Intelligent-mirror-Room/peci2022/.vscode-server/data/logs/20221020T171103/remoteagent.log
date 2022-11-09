@@ -1,0 +1,91 @@
+[2022-10-20 17:11:03.446] [remoteagent] [info] Extension host agent started.
+[2022-10-20 17:11:03.752] [remoteagent] [info] [127.0.0.1][ec8097a4][ManagementConnection] New connection established.
+[2022-10-20 17:11:03.946] [remoteagent] [info] [127.0.0.1][19ee765d][ExtensionHostConnection] New connection established.
+[2022-10-20 17:11:04.019] [remoteagent] [info] [127.0.0.1][19ee765d][ExtensionHostConnection] <19305> Launched Extension Host Process.
+[2022-10-20 17:11:21.940] [remoteagent] [info] [127.0.0.1][ec8097a4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-20 17:11:21.974] [remoteagent] [info] [127.0.0.1][19ee765d][ExtensionHostConnection] <19305> Extension Host Process exited with code: 0, signal: null.
+[2022-10-20 17:11:21.975] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-10-20 17:11:29.911] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-10-20 17:11:29.911] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-10-20 17:11:30.207] [remoteagent] [info] [127.0.0.1][c9cdc1e8][ManagementConnection] New connection established.
+[2022-10-20 17:11:30.241] [remoteagent] [info] [127.0.0.1][5f0c4e3e][ExtensionHostConnection] New connection established.
+[2022-10-20 17:11:30.250] [remoteagent] [info] [127.0.0.1][5f0c4e3e][ExtensionHostConnection] <19478> Launched Extension Host Process.
+[2022-10-20 17:13:10.891] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-10-20 17:13:10.892] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-10-20 17:13:10.963] [remoteagent] [info] [127.0.0.1][c9cdc1e8][ManagementConnection] The client has reconnected.
+[2022-10-20 17:13:12.179] [remoteagent] [info] [127.0.0.1][5f0c4e3e][ExtensionHostConnection] The client has reconnected.
+[2022-10-20 17:15:39.101] [remoteagent] [info] [127.0.0.1][5f0c4e3e][ExtensionHostConnection] <19478> Extension Host Process exited with code: null, signal: SIGKILL.
+[2022-10-20 17:15:56.033] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-10-20 17:16:01.974] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-10-20 17:16:53.211] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-20 17:19:55.815] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGKILL
+[2022-10-20 17:20:00.363] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:152:7919)
+    at process.emit (node:events:526:28)
+[2022-10-20 17:20:00.819] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-20 17:20:00.895] [remoteagent] [info] [127.0.0.1][c9cdc1e8][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-10-20 17:20:02.690] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at w.get client [as client] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:28324)
+    at w.getCachedChannel (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:29382)
+    at w.requestPromise (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:26856)
+    at Object.call (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:26563)
+    at /home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:7506
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:8852)
+[2022-10-20 17:20:02.732] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at w.get client [as client] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:28324)
+    at w.getCachedChannel (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:29382)
+    at Object.onFirstListenerAdd (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:27360)
+    at _event._event (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:974)
+    at set input [as input] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:5772)
+    at /home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:7638
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-20 17:20:02.734] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at w.get client [as client] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:28324)
+    at w.getCachedChannel (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:29382)
+    at Object.onFirstListenerAdd (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:27360)
+    at _event._event (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:974)
+    at set input [as input] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:5772)
+    at /home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:7638
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-20 17:20:02.735] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at w.get client [as client] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:28324)
+    at w.getCachedChannel (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:29382)
+    at Object.onFirstListenerAdd (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:27360)
+    at _event._event (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:974)
+    at set input [as input] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:64:5772)
+    at /home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:7638
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-20 17:20:02.736] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:700:9)
+    at fork (node:child_process:166:10)
+    at w.get client [as client] (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:28324)
+    at w.getCachedChannel (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:29382)
+    at w.requestPromise (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:26856)
+    at Object.call (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:26563)
+    at /home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:7506
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processTimers (node:internal/timers:499:9)
+    at async Proxy.<anonymous> (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:75:8852)
+    at async T.watch (/home/peci2022/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/vs/server/node/server.main.js:82:49995)

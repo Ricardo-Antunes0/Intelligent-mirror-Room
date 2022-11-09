@@ -1,0 +1,23 @@
+[2022-07-14 12:19:43.359] [remoteagent] [info] Extension host agent started.
+[2022-07-14 12:19:44.093] [remoteagent] [info] [127.0.0.1][2ff8db1b][ManagementConnection] New connection established.
+[2022-07-14 12:19:44.104] [remoteagent] [info] [127.0.0.1][48cb62c3][ExtensionHostConnection] New connection established.
+[2022-07-14 12:19:44.114] [remoteagent] [info] [127.0.0.1][48cb62c3][ExtensionHostConnection] <18008> Launched Extension Host Process.
+[2022-07-14 12:20:07.170] [remoteagent] [info] [127.0.0.1][48cb62c3][ExtensionHostConnection] <18008> Extension Host Process exited with code: 0, signal: null.
+[2022-07-14 12:20:07.171] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-14 12:20:16.868] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-14 12:20:16.868] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-14 12:20:17.000] [remoteagent] [info] [127.0.0.1][98f879ad][ManagementConnection] New connection established.
+[2022-07-14 12:20:17.023] [remoteagent] [info] [127.0.0.1][3b196a0e][ExtensionHostConnection] New connection established.
+[2022-07-14 12:20:17.032] [remoteagent] [info] [127.0.0.1][3b196a0e][ExtensionHostConnection] <18172> Launched Extension Host Process.
+[2022-07-14 12:20:18.982] [remoteagent] [info] [127.0.0.1][2ff8db1b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-14 12:20:18.989] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-14 12:24:59.499] [remoteagent] [info] [127.0.0.1][3b196a0e][ExtensionHostConnection] <18172> Extension Host Process exited with code: 0, signal: null.
+[2022-07-14 12:24:59.500] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-14 12:24:59.506] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-14 12:25:43.193] [remoteagent] [info] [127.0.0.1][98f879ad][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-14 12:25:43.194] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/peci2022/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-14 12:29:59.508] [remoteagent] [info] Last EH closed, shutting down

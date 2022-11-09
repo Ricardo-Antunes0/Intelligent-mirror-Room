@@ -1,0 +1,14 @@
+[2022-07-14 12:33:29.234] [exthost] [info] Extension host with pid 18758 started
+[2022-07-14 12:33:29.272] [exthost] [info] Lock '/home/peci2022/.vscode-server/data/User/workspaceStorage/0aab4b19ce150d9a8c424b050c3d8aed/vscode.lock': Lock acquired.
+[2022-07-14 12:33:29.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-07-14 12:33:29.908] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-14 12:33:29.925] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-14 12:33:29.967] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-14 12:33:31.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-14 12:33:31.840] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-14 12:33:32.610] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-14 12:33:32.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-14 12:33:32.715] [exthost] [info] Eager extensions activated
+[2022-07-14 12:57:42.722] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-14 12:57:42.723] [exthost] [info] Lock '/home/peci2022/.vscode-server/data/User/workspaceStorage/0aab4b19ce150d9a8c424b050c3d8aed/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-14 12:57:42.767] [exthost] [info] Extension host with pid 18758 exiting with code 0
