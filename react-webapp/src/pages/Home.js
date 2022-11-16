@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import BannerImage from "../assets/waiting_room.jpg";
+import BannerImage from "../assets/waiting_room.jpg"
 import "../styles/Home.css";
 import {Icon} from '@iconify/react';
 import Grafico from "../graph";
@@ -48,9 +48,9 @@ function Home() {
     }, 1000)
     return () => clearInterval(interval)
   })
-
+//http://192.168.160.19:5000/counter
   const loadJson = async () => {
-    const response = await fetch('http://192.168.160.19:5000/counter')
+    const response = await fetch('http://localhost:3000/')
     const result = await response.json()
     if (result.num_people){
       setNpessoas(result.num_people)
@@ -79,7 +79,7 @@ function Home() {
         <Icon className="iconpessoas" icon="fluent:people-24-filled"   />
       </div>
       <div className="title-div">
-        <h1 className="pdr">Intelligent Waiting Room</h1>
+        <h1 className="pdr">Introdução</h1>
       </div>
       {parseInt(ppg)===0 && (
       <div className="rect3">
@@ -98,26 +98,7 @@ function Home() {
         <div className='grafico'><Grafico value={ppg}/></div>
       </div>
       )}
-      <AnimatePresence >
-        {move && (
-        <div className="aboutus"  >
-          <h1 className='titulo'> About us</h1>
-              <img className='visgas_foto' src={visgas} alt="visgas"/>
-              <h2 className='joaoviegas'>João Viegas</h2>
-              <img className='Amarelo_foto' src={amarelo} alt="amarelo"/>
-              <h2 className='joaoamaral'>João Amaral</h2>
-              <img className='brune_foto' src={brune} alt="brune"/>
-              <h2 className='brunolemos'>Bruno Lemos</h2>
-              <img className='pedra_foto' src={pedra} alt="pedra"/>
-              <h2 className='pedrorocha'>Pedro Rocha</h2>
-              <img className='jana_foto' src={jana} alt="joana"/>
-              <h2 className='joanacunha'>Joana Cunha</h2>
-              <h2 className='peci'>Projeto de Engenhenharia de computadores e informatica</h2>
-        </div>)}
-      </AnimatePresence>
-      <div className='info' onMouseEnter={()=>setMove(!move)} onMouseLeave={()=>setMove(!move)}>
-        <Icon icon="entypo:info-with-circle" color="#699bf7" height="100" />
-      </div>
+     
     </div>  
   );
 }

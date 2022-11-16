@@ -47,9 +47,7 @@ overflow-y: hidden;
   vertical-align: middle;
   display: flex;
   justify-content: center;
-  background: rgb(220, 221, 220);
-  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+
 }
 .rect3{
   position: absolute;
