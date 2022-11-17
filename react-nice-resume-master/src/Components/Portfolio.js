@@ -71,7 +71,7 @@ function Portfolio() {
           <div className='room-div'>
             <img className="room" alt="room" src={BannerImage} />
             <canvas id="drawPeople" className='peopleCanvas' ></canvas>
-          </div>
+            </div>
           <div className="rect">
                   <h1 className="npd">{npessoas}</h1>
                   <Icon className="iconpessoas" icon="fluent:people-24-filled"   />

@@ -3,34 +3,37 @@
 overflow-y: hidden;
 } */
 .rect{
-  position:relative;
+  position: absolute;
   width: 30vw;
   height: 126px;
-  align-content: flex-end;
+  right: 0;
+  top: 16vh;
+
   background: rgb(220, 221, 220);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 36px;
   border-bottom-left-radius: 36px;
-  margin-left: 65%;
 }
 
 .home {
-  width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-left: 1vw;
   border: 0;
-  display:contents;
 
 }
 
 .rect3{
+
+  position: absolute;
   width: 30vw;
   height: 580px;
+  right:0;
   
-  background: rgb(220, 221, 220);
+ background: rgb(220, 221, 220);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 36px;
   border-bottom-left-radius: 36px;
+  overflow: hidden;
 
 }
 

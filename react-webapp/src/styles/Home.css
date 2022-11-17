@@ -7,15 +7,30 @@ overflow-y: hidden;
   width: 30vw;
   height: 126px;
   right: 0;
-  top: 16vh;
+  top: 4vh;
 
   background: rgb(220, 221, 220);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
   border-top-left-radius: 36px;
   border-bottom-left-radius: 36px;
 }
+
+.rect3{
+  position: absolute;
+  width: 30vw;
+  height: 580px;
+  top:5vh;
+  right:0;
+  
+ background: rgb(220, 221, 220);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+  overflow: hidden;
+}
+
 .home{
-  overflow-y: hidden;
+  overflow-y:hidden;
 }
 .npd{
   font-size: 80px;
@@ -23,7 +38,7 @@ overflow-y: hidden;
   padding-left: 170px;
   position: relative;
   height: fit-content;
-  top:-3.2vh;
+  top:1vh;
   width: fit-content;
   overflow: hidden;
 }
@@ -49,19 +64,7 @@ overflow-y: hidden;
   justify-content: center;
 
 }
-.rect3{
-  position: absolute;
-  width: 30vw;
-  height: 580px;
-  top:34vh;
-  right:0;
-  
- background: rgb(220, 221, 220);
-  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 36px;
-  border-bottom-left-radius: 36px;
-  overflow: hidden;
-}
+
 
 .bpm-text{
   text-align: center;
