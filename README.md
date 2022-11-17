@@ -1,4 +1,4 @@
-# PECI -  Intelligent Waiting Room
+# PECI -  Intelligent Mirror Room
 
 # Members
 
