@@ -73,7 +73,7 @@ function Portfolio() {
             <canvas id="drawPeople" className='peopleCanvas' ></canvas>
             </div>
           <div className="rect">
-                  <h1 className="npd">{npessoas}</h1>
+                  <div className="npd">{npessoas}</div>
                   <Icon className="iconpessoas" icon="fluent:people-24-filled"   />
                 </div>
                 {parseInt(ppg)===0 && (

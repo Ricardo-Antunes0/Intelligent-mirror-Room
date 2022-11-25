@@ -3,16 +3,16 @@
 overflow-y: hidden;
 } */
 .rect{
+  top: 1.8vh;
+  z-index: 2;
+  overflow: hidden;
   position: absolute;
   width: 30vw;
   height: 126px;
-  right: 0;
-  top: 16vh;
-
+  right: 1.4vw;
   background: rgb(220, 221, 220);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 36px;
-  border-bottom-left-radius: 36px;
+  border-radius: 36px;
 }
 
 .home {
@@ -24,27 +24,30 @@ overflow-y: hidden;
 
 .rect3{
 
+  top: 18.8vh;
+  z-index: 2;
+  overflow: hidden;
   position: absolute;
+  right: 1.4vw;
+  background: rgb(220, 221, 220);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 36px;
   width: 30vw;
   height: 580px;
-  right:0;
   
  background: rgb(220, 221, 220);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 36px;
-  border-bottom-left-radius: 36px;
+  border-radius: 36px;
   overflow: hidden;
 
 }
 
 .npd{
-  font-size: 80px;
+  top: 4.7vh;
+  font-size: 40px;
   text-align: left;
   padding-left: 170px;
   position: relative;
-  height: fit-content;
-  top:-3.2vh;
-  width: fit-content;
   overflow: hidden;
 }
 
@@ -108,8 +111,8 @@ overflow-y: hidden;
 
 .room{
 
-  width: 1200px;
-  height: 750px;
+  width: 1000px;
+  height: 740px;
   z-index: 1;
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.1);
   border-radius: 36px;  
@@ -118,10 +121,12 @@ overflow-y: hidden;
 
 .peopleCanvas{
   position: absolute;
-  width: 1200px;
-  height: 750px;
-  top: 16.8vh;
+  width: 800px;
+  height: 738px;
+  left: 1.4vw;
+  top: 1.8vh;
   z-index: 2;
+  overflow: hidden;
 }
 
 .grafico{
