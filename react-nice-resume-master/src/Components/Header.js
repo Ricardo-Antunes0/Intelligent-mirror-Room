@@ -8,8 +8,8 @@ class Header extends Component {
 
     
     const github = this.props.data.github;
-    const name = "Intelligent Mirror Room"
-    const description = "isto é a descricao caralho"
+    const name = this.props.data.name
+    const description = this.props.data.description
 
     return (
       <header id="home">
@@ -44,15 +44,10 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Work
               </a>
             </li>
 
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
           </ul>
         </nav>
 

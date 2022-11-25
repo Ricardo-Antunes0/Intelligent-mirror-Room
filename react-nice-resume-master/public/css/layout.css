@@ -200,11 +200,25 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 30px;
    color: #ccc;
 }
+.column {
+   float: left;
+   width: 20%;
+   padding: 0px;
+   display: block;
+ }
+ 
+ /* Clearfix (clear floats) */
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
 #about .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
+
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {

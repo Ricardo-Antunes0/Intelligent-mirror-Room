@@ -6,7 +6,11 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const freixo = "images/" + this.props.data.freixo;
+    const rafael = "images/" + this.props.data.rafael;
+    const diogo = "images/" + this.props.data.freixo;
+    const renato = "images/" + this.props.data.freixo;
+    const ricardo = "images/" + this.props.data.freixo;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -20,20 +24,15 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Inteligent mirror room"
-              />
-            </div>
+            
+              
             <div className="nine columns main-col">
               <h2>About Us</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>Group 5</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />
@@ -43,19 +42,51 @@ class About extends Component {
                       {city} {state}, {zip}
                     </span>
                     <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
+                    
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
+                    
                   </p>
                 </div>
               </div>
+              <div className="column">
+              <img
+                className="profile-pic"
+                src={freixo}
+                alt="freixo"
+              />
+            </div>
+            <div className="column">
+              <img
+                className="profile-pic"
+                src={rafael}
+                alt="freixo"
+              />
+            </div>
+            <div className="column">
+              <img
+                className="profile-pic"
+                src={freixo}
+                alt="freixo"
+              />
+            </div>
+            <div className="column">
+              <img
+                className="profile-pic"
+                src={freixo}
+                alt="freixo"
+              />
+            </div>
+            <div className="column">
+              <img
+                className="profile-pic"
+                src={freixo}
+                alt="freixo"
+              />
+            </div>
+            
             </div>
           </div>
         </Fade>
