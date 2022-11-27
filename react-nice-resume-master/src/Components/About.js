@@ -24,39 +24,20 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            
-              
             <div className="nine columns main-col">
-              <h2>About Us</h2>
-
+              <h1>About Us</h1>
               <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Group 5</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    
-                  </p>
-                </div>
-              </div>
-              <div className="column">
+            </div>
+          </div>
+          <div className="row">
+          <div className="column">
               <img
                 className="profile-pic"
                 src={freixo}
                 alt="freixo"
               />
+              <h3>Diogo Fontes</h3>
+              <p>Descricao fontes</p>
             </div>
             <div className="column">
               <img
@@ -64,6 +45,8 @@ class About extends Component {
                 src={rafael}
                 alt="freixo"
               />
+              <h3>Filipe Freixo</h3>
+              <p>Descricao freixo</p>  
             </div>
             <div className="column">
               <img
@@ -71,6 +54,8 @@ class About extends Component {
                 src={freixo}
                 alt="freixo"
               />
+              <h3>Rafael Pereira</h3>
+              <p>Descricao rafa</p>
             </div>
             <div className="column">
               <img
@@ -78,6 +63,8 @@ class About extends Component {
                 src={freixo}
                 alt="freixo"
               />
+              <h3>Renato Ourives</h3>
+              <p>Descricao renato</p>
             </div>
             <div className="column">
               <img
@@ -85,9 +72,10 @@ class About extends Component {
                 src={freixo}
                 alt="freixo"
               />
+              <h3>Ricardo Antunes</h3>
+              <p>Descricao antunes</p>
             </div>
             
-            </div>
           </div>
         </Fade>
       </section>
