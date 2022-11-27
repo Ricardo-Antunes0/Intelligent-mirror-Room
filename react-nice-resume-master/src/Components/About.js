@@ -10,7 +10,7 @@ class About extends Component {
     const rafael = "images/" + this.props.data.rafael;
     const diogo = "images/" + this.props.data.freixo;
     const renato = "images/" + this.props.data.freixo;
-    const ricardo = "images/" + this.props.data.freixo;
+    const ricardo = "images/" + this.props.data.ricardo;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -42,7 +42,7 @@ class About extends Component {
             <div className="column">
               <img
                 className="profile-pic"
-                src={rafael}
+                src={freixo}
                 alt="freixo"
               />
               <h3>Filipe Freixo</h3>
@@ -51,7 +51,7 @@ class About extends Component {
             <div className="column">
               <img
                 className="profile-pic"
-                src={freixo}
+                src={rafael}
                 alt="freixo"
               />
               <h3>Rafael Pereira</h3>
@@ -69,7 +69,7 @@ class About extends Component {
             <div className="column">
               <img
                 className="profile-pic"
-                src={freixo}
+                src={ricardo}
                 alt="freixo"
               />
               <h3>Ricardo Antunes</h3>
