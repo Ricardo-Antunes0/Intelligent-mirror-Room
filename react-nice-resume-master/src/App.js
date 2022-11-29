@@ -7,7 +7,9 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 
-import Portfolio from "./Components/Portfolio";
+import Portfolio from "./pages/Portfolio";
+import Home from "./pages/Home";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 class App extends Component {
   constructor(props) {
@@ -43,11 +45,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Router>
         <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        {/* <About data={this.state.resumeData.main} />
+        <Resume data={this.state.resumeData.resume} /> */}
+        
+        
+        
+        
+        <Routes>
+          {/*<Portfolio data={this.state.resumeData.portfolio} />*/ }
+          <Route exact path='/' element={<Home data={this.state.resumeData.main}/>}/>
+          <Route exact path= '/Portfolio' element={<Portfolio />}/>
+          
+
+
+        </Routes>
         <Footer data={this.state.resumeData.main} />
+        </Router>
+
       </div>
     );
   }
