@@ -8,8 +8,8 @@ class About extends Component {
    // const name = this.props.data.name;
     const freixo = "images/" + this.props.data.freixo;
     const rafael = "images/" + this.props.data.rafael;
-    const diogo = "images/" + this.props.data.freixo;
-    const renato = "images/" + this.props.data.freixo;
+    //const diogo = "images/" + this.props.data.freixo;
+    //const renato = "images/" + this.props.data.freixo;
     const ricardo = "images/" + this.props.data.ricardo;
     const bio = this.props.data.bio;
    // const street = this.props.data.address.street;
