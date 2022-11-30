@@ -1,18 +1,18 @@
-import React, { Component, useState, useEffect } from "react";
-import Zmage from "react-zmage";
+import React, { useState, useEffect } from "react";
+//import Zmage from "react-zmage";
 import Fade from "react-reveal";
 import BannerImage from "../assets/waiting_room.jpg"
 import "../Home.css";
 import {Icon} from '@iconify/react';
 import Grafico from "../graph";
 
-let id = 0;
+//let id = 0;
 function Portfolio() {
     //atribuir valores random a "npessoas"
     const [npessoas, setNpessoas] = React.useState(0);
     const[positions, setPositions] = React.useState([]);
     const [ppg, setPpg] = React.useState(0);
-    const[move, setMove] = useState(false);
+   // const[move, setMove] = useState(false);
     const[show, setShow] = useState(true);
   
     setTimeout(() => {
@@ -47,7 +47,7 @@ function Portfolio() {
     })
   //http://192.168.160.19:5000/counter
     const loadJson = async () => {
-      const response = await fetch('http://localhost:3000/')
+      const response = await fetch('http://192.168.160.19:5000/counter')
       const result = await response.json()
       if (result.num_people){
         setNpessoas(result.num_people)
