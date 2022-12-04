@@ -1,13 +1,15 @@
 {
   "main": {
     "name":"Intelligent mirror room",
-    "description":"Somos o grupo 5 e o nosso trabalho éas ajsjndsajdnjn ajnda sjndajsnd  oaroasrosrorososroarsorsoraso asjnjnadsnsad ajsnd jnas jdsnajdn",
-    "freixo":"Renato.jpg",
+    "description":"Repositório do nosso projeto",
+    "freixo":"freixo.jpeg",
     "ricardo":"Freixo1.jpg",
-    "diogo":"freixo.jpeg",
-    "renato":"freixo.jpeg",
+    "diogo":"diogo.jpeg",
+    "renato":"renato.jpg",
     "rafael":"rafael.jpeg",
-    "bio":"blablalblbablablalblbablablalblbabblablalblbablablalblbablablalblbab ",
+    "bio":"Projeto para a cadeira PECI: ",
+    "bio1": "Grupo 4",
+    "bio2": "Orientador: José Maria Fernandes",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -50,18 +52,18 @@
     
     "education":[
       {
-        "school":"In progress...",
+        "school":"Thermal camera",
+        "school1":"Web application",
         "degree":"Universidade de Aveiro, IEETA",
-        "graduated":"2022",
-        "description":"Descricao sobre aquilo que ja temos feito"
+        "graduated":"2022"
       }
     ],
     "work":[
       {
         "company":"Idealized future work",
         "degree":"Universidade de Aveiro, IEETA",
-        "graduated":"2023",
-        "description":"Descrever trabalho e ideias futuras"
+        "graduated":"2022/2023",
+        "description":"Designing smart mirror and integrating it into the work already done on this project"
       }
     ],
     "skills":[
