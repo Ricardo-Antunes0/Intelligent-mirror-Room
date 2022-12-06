@@ -14,20 +14,7 @@ class About extends Component {
     const bio = this.props.data.bio;
     const bio1 = this.props.data.bio1;
     const bio2 = this.props.data.bio2;
-    // eslint-disable-next-lin
-    const street = this.props.data.address.street;
-    // eslint-disable-next-lin
-    const city = this.props.data.address.city;
-    // eslint-disable-next-lin
-    const state = this.props.data.address.state;
-    // eslint-disable-next-lin
-    const zip = this.props.data.address.zip;
-    // eslint-disable-next-lin
-    const phone = this.props.data.phone;
-    // eslint-disable-next-lin
-    const email = this.props.data.email;
-    // eslint-disable-next-lin
-    const resumeDownload = this.props.data.resumedownload;
+    
 
     return (
       <section id="about">

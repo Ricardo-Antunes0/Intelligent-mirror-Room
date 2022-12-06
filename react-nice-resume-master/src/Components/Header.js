@@ -9,8 +9,6 @@ class Header extends Component {
     
     const github = this.props.data.github;
     const name = this.props.data.name
-    // eslint-disable-next-lin
-    const description = this.props.data.description
 
     return (
       <header id="home">
