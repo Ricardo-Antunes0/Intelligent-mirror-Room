@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 //import Zmage from "react-zmage";
 import Fade from "react-reveal";
-import BannerImage from "../assets/waiting_room.jpg"
+import BannerImage from "../assets/apagar.jpg"
 import "../Home.css";
 import {Icon} from '@iconify/react';
 import Grafico from "../graph";
@@ -47,7 +47,7 @@ function Portfolio() {
     })
   //http://192.168.160.19:5000/counter
     const loadJson = async () => {
-      const response = await fetch('http://192.168.160.19:5000/counter')
+      const response = await fetch('http://localhost:3000/')
       const result = await response.json()
       if (result.num_people){
         setNpessoas(result.num_people)
