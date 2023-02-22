@@ -26,8 +26,8 @@ let config = {
 	httpsPrivateKey: "", 	// HTTPS private key path, only require when useHttps is true
 	httpsCertificate: "", 	// HTTPS Certificate path, only require when useHttps is true
 
-	language: "en",
-	locale: "en-US",
+	language: "pt",
+	locale: "pt-PT",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
 	units: "metric",
@@ -51,13 +51,13 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Feriados",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"
+						url: "https://p32-calendars.icloud.com/holidays/pt_pt.ics"
 					}
 				]
 			}
@@ -72,20 +72,20 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				location: "Aveiro",
+				locationID: "8010417", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
 		{
 			module: "weather",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "Tempo atual",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				location: "Aveiro",
+				locationID: "8010417", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
@@ -95,8 +95,8 @@ let config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Destaques do dia",
+						url: "https://www.noticiasaominuto.com/rss/ultima-hora"
 					}
 				],
 				showSourceTitle: true,
