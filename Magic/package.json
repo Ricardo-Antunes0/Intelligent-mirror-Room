@@ -81,11 +81,14 @@
 		"feedme": "^2.0.2",
 		"helmet": "^6.0.1",
 		"iconv-lite": "^0.6.3",
+		"kafka-node": "^5.0.0",
+		"kafkajs": "^2.2.4",
 		"luxon": "^1.28.0",
 		"module-alias": "^2.2.2",
 		"moment": "^2.29.4",
 		"node-fetch": "^2.6.7",
 		"node-ical": "^0.15.3",
+		"node-rdkafka": "^2.15.0",
 		"socket.io": "^4.5.4"
 	},
 	"_moduleAliases": {

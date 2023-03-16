@@ -8,6 +8,7 @@ const Class = require("./class.js");
 const Log = require("logger");
 const express = require("express");
 
+
 const NodeHelper = Class.extend({
 	init() {
 		Log.log("Initializing new module helper ...");

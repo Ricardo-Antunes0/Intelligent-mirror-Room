@@ -1,0 +1,24 @@
+.long-message1 {
+  font-size: 70px;
+}
+.short-message {
+  font-size: 75px;
+}
+
+.long-message {
+  font-size: 70px;
+  color: red;
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

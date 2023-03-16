@@ -7,7 +7,9 @@
  * MIT Licensed.
  */
 Module.register("alert", {
-	alerts: {},
+	alerts: {
+		text:"felisberto bomba"
+	},
 
 	defaults: {
 		effect: "slide", // scale|slide|genie|jelly|flip|bouncyflip|exploader

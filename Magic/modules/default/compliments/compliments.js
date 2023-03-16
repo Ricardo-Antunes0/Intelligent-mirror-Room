@@ -8,10 +8,10 @@ Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-			anytime: ["Bem vindo meu cabrao!"],
+			anytime: ["Bem vindo"],
 			 morning: ["Bom dia!", "Aproveita o teu dia!", "Boa noite de sono?"],
-			// afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
-			// evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
+			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
+			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
 			// "....-01-01": ["Happy new year!"]
 		},
 		updateInterval: 30000,
@@ -35,6 +35,7 @@ Module.register("compliments", {
 	// Define start sequence.
 	start: function () {
 		Log.info("Starting module: " + this.name);
+
 
 		this.lastComplimentIndex = -1;
 

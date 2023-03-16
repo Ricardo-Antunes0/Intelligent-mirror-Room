@@ -46,6 +46,14 @@ let config = {
 			position: "top_bar"
 		},
 		{
+			module: "PPG",
+  			position: "top_center",
+  			config: {
+				//
+  			},
+		},
+		
+		{
 			module: "clock",
 			position: "top_left"
 		},
@@ -64,30 +72,7 @@ let config = {
 		},
 		{
 			module: "compliments",
-			position: "lower_third"
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			config: {
-				weatherProvider: "openweathermap",
-				type: "current",
-				location: "Aveiro",
-				locationID: "8010417", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			header: "Tempo atual",
-			config: {
-				weatherProvider: "openweathermap",
-				type: "forecast",
-				location: "Aveiro",
-				locationID: "8010417", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
-			}
+			position: "top_right"
 		},
 		{
 			module: "newsfeed",

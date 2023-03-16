@@ -90,6 +90,7 @@ Module.register("clock", {
 	},
 	// Override dom generator.
 	getDom: function () {
+
 		const wrapper = document.createElement("div");
 		wrapper.classList.add("clockGrid");
 
