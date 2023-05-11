@@ -52,6 +52,13 @@ let config = {
 				//
   			},
 		},
+		{
+			module: "admin",
+  			position: "top_right",
+  			config: {
+				//
+  			},
+		},
 		
 		{
 			module: "clock",
@@ -70,10 +77,10 @@ let config = {
 				]
 			}
 		},
-		{
-			module: "compliments",
-			position: "top_right"
-		},
+		// {
+		// 	module: "compliments",
+		// 	position: "top_right"
+		// },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",

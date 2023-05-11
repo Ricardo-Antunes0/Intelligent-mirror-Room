@@ -5,11 +5,11 @@ const kafka = new Kafka({
   brokers: ['192.168.160.19:9092']
 });
 
-const consumer = kafka.consumer({ groupId: 'my-group' });
+const consumer = kafka.consumer({ groupId: 'group1' });
 
 const run = async () => {
   await consumer.connect();
-  await consumer.subscribe({ topic: 'ppg', fromBeginning: true });
+  await consumer.subscribe({ topic: 'admin-message', fromBeginning: true });
 
   await consumer.run({
     eachMessage: async ({ message }) => {
