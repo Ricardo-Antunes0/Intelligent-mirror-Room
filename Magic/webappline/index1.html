@@ -1,105 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
     <title>Kafka Consumer Messages</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <style>
-        /* Global styles */
-        body {
-            background-color: #f8f8f8;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            font-weight: bold;
-            margin-top: 0;
-        }
-        h1 {
-            font-size: 2.4em;
-            text-align: center;
-            margin-bottom: 40px;
-            color: #1e6ec4;
-        }
-        h2 {
-            font-size: 1.6em;
-            margin-bottom: 20px;
-            color: #1e6ec4;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        .icon {
-            display: inline-block;
-            margin-right: 10px;
-            font-size: 1.2em;
-            color: #1e6ec4;
-        }
-
-        /* Topic-specific styles */
-        #messages_topic1 {
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        #messages_topic2 {
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .heart:before {
-            content: "\2665";
-            color: #ff5a5f;
-            animation: pulse 1s ease-in-out infinite;
-        }
-        .person:before {
-            content: "\1F468";
-        }
-        .btn {
-            display: inline-block;
-            padding: 8px 16px;
-            font-size: 1em;
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #fff;
-            background-color: #1e6ec4;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.2s ease-in-out;
-        }
-        .btn:hover {
-            background-color: #2351a1;
-        }
-
-        /* Animation styles */
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.2);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-    </style>
+      body {
+        background-image: url('back.jpg');
+      }
+      </style>
+    
+    
+    
     <script>
-        let messageValueTopic1 = '';
         $(document).ready(function() {
-            let a;
             setInterval(fetchMessagesTopic1, 200); // Fetch messages for topic1 every 2 seconds
             setInterval(fetchMessagesTopic2, 200); // Fetch messages for topic2 every 2 seconds
 
@@ -108,9 +24,7 @@
                     url: '/get_messages_topic1',
                     type: 'GET',
                     success: function(response) {
-                       
                         $('#messages_topic1').text(response.latest_message);
-
                     }
                 });
             }
@@ -120,24 +34,24 @@
                     url: '/get_messages_topic2',
                     type: 'GET',
                     success: function(response) {
-                        messageValueTopic1=response.latest_message;
                         $('#messages_topic2').text(response.latest_message);
                     }
                 });
             }
-
         });
     </script>
 </head>
 <body>
     <h1>Kafka Consumer Messages</h1>
-    <h2><span class="icon person"></span>Person detector</h2>
-    <div id="messages_topic2">
-        <p>Loading messages for PPG...</p>
-    </div>
-    <h2><span class="icon heart"></span>PPG</h2>
+    <h2>Topic 1:</h2>
     <div id="messages_topic1">
-        <p>Loading messages for Person counter...</p>
+        <p>Loading messages for Topic 1...</p>
+    </div>
+    
+    <h2>Topic 2:</h2>
+    <div id="messages_topic2">
+        <p>Loading messages for Topic 2...</p>
+        
     </div>
 
     <div class="wrapper">
@@ -146,7 +60,7 @@
         <script>
                 
                 function getData(min, max){
-                    return messageValueTopic2;
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
                 }
         
                 Plotly.plot('chart',[{
@@ -162,7 +76,6 @@
         
         </script>
     </div>
-
 
     <footer class="site-footer">
         <div class="container">
@@ -212,6 +125,13 @@
           </div>
         </div>
   </footer>
+    
+
+
+
+
+
+
 
 </body>
 </html>

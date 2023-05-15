@@ -11,7 +11,7 @@ lock_topic2 = threading.Lock()
 
 def consume_messages_topic1():
     global messages_topic1
-    consumer_topic1 = KafkaConsumer('test-topic', bootstrap_servers='192.168.160.19:9092')
+    consumer_topic1 = KafkaConsumer('ppg', bootstrap_servers='192.168.160.19:9092')
     producer = KafkaProducer(bootstrap_servers='192.168.160.19:9092')
     topic_name = 'admin-message'
     alert = "Alert: High BPM'S"
@@ -34,7 +34,7 @@ def consume_messages_topic1():
 
 def consume_messages_topic2():
     global messages_topic2
-    consumer_topic2 = KafkaConsumer('ppg', bootstrap_servers='192.168.160.19:9092')
+    consumer_topic2 = KafkaConsumer('name_person', bootstrap_servers='192.168.160.19:9092')
     for message in consumer_topic2:
         with lock_topic2:
             messages_topic2.append(message.value.decode('utf-8'))
