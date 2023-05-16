@@ -47,7 +47,7 @@ let config = {
 		},
 		{
 			module: "PPG",
-  			position: "top_center",
+  			position: "center",
   			config: {
 				//
   			},
@@ -59,6 +59,14 @@ let config = {
 				//
   			},
 		},
+		{
+			module: "names",
+  			position: "top_center",
+  			config: {
+				//
+  			},
+		},
+
 		
 		{
 			module: "clock",
