@@ -108,7 +108,7 @@
                     url: '/get_messages_topic1',
                     type: 'GET',
                     success: function(response) {
-                       
+                        messageValueTopic1=response.latest_message;
                         $('#messages_topic1').text(response.latest_message);
 
                     }
@@ -120,7 +120,7 @@
                     url: '/get_messages_topic2',
                     type: 'GET',
                     success: function(response) {
-                        messageValueTopic1=response.latest_message;
+                        
                         $('#messages_topic2').text(response.latest_message);
                     }
                 });
