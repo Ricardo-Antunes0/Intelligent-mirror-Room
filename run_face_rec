@@ -1,0 +1,4 @@
+source "/home/pi/Desktop/PiFaceVirtualEnv/bin/activate"
+cd Desktop/piFace
+cd FaceRecognition
+python 03_face_recognition.py 
