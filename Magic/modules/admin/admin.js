@@ -9,7 +9,7 @@ Module.register("admin", {
 	},
   
 	getStyles: function () {
-		return ["PPG_styles.css"];
+		return ["admin.css"];
 	},
 	socketNotificationReceived: function (notification, payload) {
 	  if (notification === "MESSAGE_RECEIVED") {
@@ -21,12 +21,16 @@ Module.register("admin", {
 	
 	getDom: function () {
 	  	const messageWrapper = document.createElement("div");
-	  	const message = document.createTextNode(this.config.message);
-		
 		messageWrapper.className = "short-message";
-	
+
+		if (this.config.message !== this.defaults.message) {
+			const iconElement = document.createElement("i");
+    		iconElement.className = "fas fa-exclamation-triangle alert-icon";
+			messageWrapper.appendChild(iconElement);
+		}
+
+	  	const message = document.createTextNode(this.config.message);
 	  	messageWrapper.appendChild(message);
 		return messageWrapper;
 	},
   });
-  

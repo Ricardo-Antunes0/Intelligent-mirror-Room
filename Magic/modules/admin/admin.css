@@ -11,6 +11,10 @@
   animation: blink 0.8s ease-in-out infinite;
 }
 
+.alert-icon {
+  color: yellow;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;
@@ -22,3 +26,4 @@
     opacity: 1;
   }
 }
+

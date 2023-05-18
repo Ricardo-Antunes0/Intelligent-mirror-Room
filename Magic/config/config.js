@@ -47,14 +47,7 @@ let config = {
 		},
 		{
 			module: "PPG",
-  			position: "center",
-  			config: {
-				//
-  			},
-		},
-		{
-			module: "admin",
-  			position: "top_right",
+  			position: "upper_third",
   			config: {
 				//
   			},
@@ -66,8 +59,23 @@ let config = {
 				//
   			},
 		},
-
+		{
+			module: "admin",
+  			position: "top_right",
+  			config: {
+				//
+  			},
+		},
 		
+		//  {
+		//  	module: "MMM-Profilepicture",
+		//  	position: "bottom_right",
+		//  	// This will show the picture only for the "John" user.
+		//  	classes: "Jane",
+		//  	config: {
+		//  		// See below for configurable options
+		//  	}
+		//  },
 		{
 			module: "clock",
 			position: "top_left"

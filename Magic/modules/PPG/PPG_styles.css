@@ -1,12 +1,12 @@
 .long-message1 {
-  font-size: 70px;
+  font-size: 40px;
 }
 .short-message {
-  font-size: 75px;
+  font-size: 45px;
 }
 
 .long-message {
-  font-size: 70px;
+  font-size: 40px;
   color: red;
   animation: blink 0.8s ease-in-out infinite;
 }
