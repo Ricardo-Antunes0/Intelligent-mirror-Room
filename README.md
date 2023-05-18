@@ -14,17 +14,18 @@ Filipe Freixo
 
 # Requirements
 We advice you to use a virtual environment.
+
 ### Raspberry Pi 4
 ```bash
 $ pip3 install -r requirements.txt
 ``` 
 
 # To run
-Turn on the React Server (on port 3000) (on the react-webapp/ directory)
+Turn on the Magic mirror (on the Magic/ directory)
 ```bash
 $ npm start
 ```
-Turn on the python3-flask server
+Turn on admin page ( on Magic/Webapp_alerts)
 ```bash
-$ python3 mqtt-sub.py
+$ python3 app.py
 ```
