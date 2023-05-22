@@ -1,16 +1,13 @@
 # PECI -  Intelligent Mirror Room
+## Team nº4
 
-# Members
-
-Ricardo Antunes
-
-Rafael Pereira
-
-Diogo Fontes
-
-Renato Ourives 
-
-Filipe Freixo 
+| Nmec | Nome | Email |
+| :---: | :---: | :---: |
+| 98354 | Rafael Pereira | rafaelbotelhopereira@ua.pt | 
+| 98403 | Diogo Fontes | diogo.fontes@ua.pt |
+| 98576 | Renato Ourives | renatomaourives@ua.pt |
+| 98471 | Filipe Freixo | filipefreixo1@ua.pt |
+| 98275 | Ricardo Antunes | ricardofantunes@ua.pt |
 
 # Requirements
 We advice you to use a virtual environment.
