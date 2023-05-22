@@ -8,9 +8,9 @@ Rafael Pereira
 
 Diogo Fontes
 
-Renato Ourives
+Renato Ourives 
 
-Filipe Freixo
+Filipe Freixo 
 
 # Requirements
 We advice you to use a virtual environment.
