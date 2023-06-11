@@ -420,12 +420,17 @@ button {
 
 .product_section_2 .row {
     display: flex;
+    
   }
   
   .product_section_2 .col-md-6 {
     flex: 1;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
+    width: 50%;
+    
   }
   
   .image_2 img {
@@ -557,6 +562,8 @@ button {
     background-image: url(../images/black2.jpg);
     height: auto;
     margin-top: 90px;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
 }
 
@@ -577,8 +584,10 @@ button {
     color: #599ee9;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 535px;
+    justify-content: center;
+    margin-left: 900px;
     margin-bottom: 500px;
+    padding-top: 100px;
 
 }
 .controller_text_2 {
@@ -907,5 +916,11 @@ button {
 
 .padding_video_0{
     margin-top: 0px; 
+}
+
+.video3{
+    width: 20%;
+    height: 50%;
+    
 }
 
